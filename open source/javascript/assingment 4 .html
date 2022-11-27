@@ -1,0 +1,22 @@
+<html>
+    <script>
+        var x=prompt("enter your name");
+while (!isNaN(x))
+{
+    var x=prompt("enter your name");
+}
+    
+var y=prompt("enter your birth year");
+
+
+ while (!(isFinite(y) && parseInt(y)<2010))
+{
+    var y=prompt("enter your birth year");
+
+}
+var t="2021-y";
+document.write("name  :   ",x,"<br>");
+document.write("birth year : " ,y,"<br>");
+document.write("age  :",eval(t),"<br>");
+    </script>
+</html>
